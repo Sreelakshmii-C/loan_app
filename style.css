@@ -1,0 +1,307 @@
+.nav-item:hover {
+    background-color: rgb(216, 209, 209); /* Light gray background on hover */
+    border-radius: 5px; /* Optional: Smooth rounded corners */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+.hero {
+    background: url('https://i.pinimg.com/736x/06/4e/b5/064eb5de46cfe86ea5c46a6d4c165a76.jpg') no-repeat center center/cover;
+    height: 700px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+    color: white; /* Text color */
+    position: relative;
+}
+
+.apply-btn {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+}
+
+.apply-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+.para{
+    color: black;
+    margin-bottom: 50px;
+}
+.card{
+    width: 300px;
+    height: 300px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+/* Testimonials */
+.testimonial {
+    text-align: center;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 50%;
+}
+
+/* Modal */
+.modal-content {
+    border-radius: 10px;
+}
+/* General Page Styling */
+body {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Apply Now Button */
+.apply-btn {
+    padding: 14px 28px;
+    background: linear-gradient(45deg, #3e3194, #6b4dff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.apply-btn:hover {
+    background: linear-gradient(45deg, #ff914d, #ff5733);
+}
+
+/* Modal Styling */
+.modal-content {
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal Header */
+.modal-header {
+    background: linear-gradient(45deg, #007bff, #00bfff);
+    color: white;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* Modal Body */
+.modal-body {
+    padding: 30px;
+}
+
+.modal-body p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/* Loan Options Styling */
+.loan-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.loan-link {
+    display: block;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+/* Individual Loan Button Colors */
+.personal-loan {
+    background: #f1f2f3;
+    color: rgb(3, 0, 0);
+}
+
+.home-loan {
+    background: #f1f2f3;
+    color: rgb(8, 0, 0);
+}
+
+.car-loan {
+    background: #f1f2f3;
+    color: black;
+}
+
+.business-loan {
+    background: #f1f2f3;
+    color: rgb(6, 0, 0);
+}
+
+/* Hover Effects - Light Gray Shade */
+.loan-link:hover {
+    background: lightgray !important;  /* Light gray hover effect */
+    color: black !important;
+    opacity: 0.9;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Modal Footer */
+.modal-footer {
+    border-top: none;
+    padding-bottom: 20px;
+}
+
+.close-btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+    color: #333;
+    padding: 50px;
+}
+
+/* Login Button */
+.login-btn {
+    padding: 14px 30px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.login-btn:hover {
+    background: #0056b3;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.modal-content {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    max-width: 1000px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Left Side - Image */
+.modal-left {
+    flex: 1;
+    background: white;
+}
+
+.modal-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Right Side - Form */
+.modal-right {
+    flex: 1;
+    padding: 30px;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.submit-btn:hover {
+    background: #0056b3;
+}
+
+/* Link Styling */
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

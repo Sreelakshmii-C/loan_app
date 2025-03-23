@@ -1,0 +1,79 @@
+/* About Us Section */
+.about-us {
+    padding: 80px 0;
+    background: linear-gradient(to right, #f8f9fa, #ffffff);
+}
+
+.about-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Image Styling */
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-img {
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.about-img:hover {
+    transform: scale(1.05);
+}
+
+/* Key Highlights */
+.highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.highlight-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #ffffff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.highlight-item img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Apply Button */
+.apply-btn {
+    background: #007bff;
+    color: white;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.apply-btn:hover {
+    background: #0056b3;
+    transform: translateY(-3px);
+}
