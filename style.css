@@ -305,3 +305,81 @@ p a {
 p a:hover {
     text-decoration: underline;
 }
+/* FAQ Section */
+.container {
+    max-width: 800px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Accordion Styling */
+.accordion-button {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.accordion-button:hover {
+    background-color: #ff9800;
+    color: white;
+}
+
+.accordion-body {
+    font-size: 16px;
+    color: #555;
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Styling when accordion is active */
+.accordion-button:not(.collapsed) {
+    background-color: #ff5722;
+    color: white;
+}
+
+/* Ask Question Form */
+.ask-question {
+    margin-top: 40px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ask-question h3 {
+    font-size: 22px;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
+}
+.map {
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
